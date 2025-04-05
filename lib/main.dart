@@ -147,6 +147,7 @@ class LoginScreen extends StatelessWidget {
     String version = packageInfo.version;  // Example: "1.0.0"
     String webAppUrl = "https://your-web-app.com"; // Replace with your actual link
 
+   // String message = "Check out my web app (Version: $version) 🌍\n$webAppUrl";
     String message = "Check out my web app (Version: $version) 🌍\n$webAppUrl";
 
     Share.share(message);
