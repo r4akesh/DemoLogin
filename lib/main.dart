@@ -112,8 +112,8 @@ class LoginScreen extends StatelessWidget {
 
                 return ElevatedButton(
                   onPressed: () {
-                    //loginBloc.add(LoginSubmitted());
-                    shareAppVersion();
+                    loginBloc.add(LoginSubmitted());
+                   // shareAppVersion();
                   },
                   child: Text('Login'),
                 );
